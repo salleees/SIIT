@@ -55,7 +55,7 @@
         listItem.textContent = item;
   
         const deleteBtn = document.createElement('button');
-        deleteBtn.innerHTML = '&times;';
+        deleteBtn.innerHTML = 'DELETE';
         deleteBtn.classList.add('btn');
         deleteBtn.dataset.deleteTodo = i;
         // deleteBtn.addEventListener('click', handleDelete);
